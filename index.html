@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en-GH">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#d5f5fb" />
+    <title>Dr Wash Laundry | Laundry Services in UCC Ayensu</title>
+    <meta
+      name="description"
+      content="Laundry, ironing, sneaker and bedding cleaning in UCC Ayensu. Everyday Fresh from a GH₵100 minimum charge. Call 0246150683 or order on WhatsApp."
+    />
+    <meta property="og:title" content="Dr Wash Laundry — Clean, fresh. Handled with care." />
+    <meta
+      property="og:description"
+      content="Laundry, sneaker and bedding care at UCC Ayensu. Pickup, delivery and express service available. Call or WhatsApp to arrange your order."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GH" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/manrope-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin=""
+    />
+    <link
+      imagesizes="(max-width: 600px) 260px, (max-width: 1100px) 350px, 400px"
+      imagesrcset="assets/hero-aqua-400.webp 400w, assets/hero-aqua-720.webp 720w"
+      type="image/webp"
+      rel="preload"
+      href="assets/hero-aqua-720.webp"
+      as="image"
+      fetchpriority="high"
+    />
+
+    <script src="assets/vendor/gsap.min.js" defer></script>
+    <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+    <script src="script.min.js" defer></script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"DryCleaningOrLaundry","name":"Dr Wash Laundry","description":"Washing, ironing, folding, bedding, special fabric and sneaker care. Pickup, delivery and express service available by arrangement.","telephone":"+233246150683","address":{"@type":"PostalAddress","streetAddress":"UCC Ayensu, next to BBF Barbering Shop","addressCountry":"GH"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"19:00"}],"paymentAccepted":"Cash, Mobile Money","sameAs":["https://wa.me/message/JEGEROEOTPZ5K1"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Laundry and cleaning services","itemListElement":[{"@type":"Offer","name":"Everyday Fresh (Regular)","description":"Washing, drying, ironing and folding. Minimum charge GH₵100; final price confirmed with the customer.","itemOffered":{"@type":"Service","name":"Everyday laundry"}},{"@type":"Offer","name":"Sneaker Care","price":70,"priceCurrency":"GHS","description":"Per pair","itemOffered":{"@type":"Service","name":"Sneaker cleaning"}},{"@type":"Offer","name":"Bedding Cleaning","description":"From GH₵100 per set. General bedding including quilts, duvets and comforters.","itemOffered":{"@type":"Service","name":"Bedding cleaning"}}]}}
+    </script>
+
+    <link rel="stylesheet" href="site.min.css" />
+    <meta content="Dr Wash Laundry" property="og:site_name" />
+    <meta content="assets/social-preview.jpg" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="Dr Wash Laundry — fresh laundry care in UCC Ayensu" property="og:image:alt" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Dr Wash Laundry | UCC Ayensu" name="twitter:title" />
+    <meta
+      content="Laundry, sneaker and bedding care. Order by phone or WhatsApp."
+      name="twitter:description"
+    />
+    <meta content="assets/social-preview.jpg" name="twitter:image" />
+  </head>
+  <body>
+    <div aria-hidden="true" class="scroll-progress"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" /></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path
+          d="m7 3 3 5-2.5 2a16 16 0 0 0 6.5 6.5l2-2.5 5 3-1 3c-.3 1-1.4 1.3-2.3 1.1C9.6 19.6 4.4 14.4 2.9 6.3 2.7 5.4 3 4.3 4 4z"
+        />
+      </symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24">
+        <path d="M20.5 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20.5l1.6-4.8a8.5 8.5 0 1 1 15.9-4.2Z" />
+        <path
+          d="m9 7 1.5 2-1 1.3a9 9 0 0 0 3.2 3.2l1.3-1 2 1.5c-.5 2-1.8 2-3 1.5a10 10 0 0 1-5.5-5.5C7 8.8 7 7.5 9 7Z"
+        />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+        <circle cx="12" cy="10" r="3" />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 6v6l4 2" />
+      </symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24">
+        <path d="M2 4h12v13H8m6-10h4l4 5v5h-3M2 9h6M1 13h5" />
+        <circle cx="6" cy="18" r="2" />
+        <circle cx="17" cy="18" r="2" />
+      </symbol>
+      <symbol id="i-bolt" viewBox="0 0 24 24"><path d="m14 2-10 12h7l-1 8L21 9h-8z" /></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></symbol>
+    </svg>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="#welcome"
+          ><span>Dr Wash<span class="brand-dot">.</span></span
+          ><small>LAUNDRY</small></a
+        >
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#services">Services</a><a href="#packages">Packages &amp; pricing</a
+          ><a href="#how-to-order">How to order</a><a href="#contact">Find us</a>
+        </nav>
+        <a class="button button-small header-call" href="tel:0246150683"
+          ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call
+          Now</a
+        >
+        <details class="mobile-menu">
+          <summary aria-label="Navigation menu">
+            <span class="menu-lines" aria-hidden="true"></span><span>Menu</span>
+          </summary>
+          <nav aria-label="Mobile navigation">
+            <a href="#services">Services</a><a href="#packages">Packages &amp; pricing</a
+            ><a href="#how-to-order">How to order</a><a href="#pickup">Pickup &amp; delivery</a
+            ><a href="#contact">Contact &amp; hours</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="welcome" class="hero" aria-labelledby="hero-heading">
+        <div class="container hero-content">
+          <h1 id="hero-heading">
+            <span class="hero-line"><span class="hero-line-inner">Clean, fresh.</span></span>
+            <span class="hero-line"
+              ><span class="hero-line-inner"
+                >Handled with<br class="desktop-break" />
+                <em>care.</em></span
+              ></span
+            >
+          </h1>
+          <p>
+            Washing, ironing, sneaker and bedding care at UCC Ayensu. Let us take care of your
+            laundry, so you can get on with your day.
+          </p>
+          <div class="button-row">
+            <a class="button" href="https://wa.me/message/JEGEROEOTPZ5K1"
+              ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+              >Order on WhatsApp</a
+            ><a class="button button-outline" href="tel:0246150683"
+              ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg
+              >Call Now</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            decoding="async"
+            sizes="(max-width: 600px) 260px, (max-width: 1100px) 350px, 400px"
+            srcset="assets/hero-aqua-400.webp 400w, assets/hero-aqua-720.webp 720w"
+            src="assets/hero-aqua-720.webp"
+            width="720"
+            height="1080"
+            alt="A smiling woman holding a basket of freshly folded white and blue laundry"
+            fetchpriority="high"
+          />
+        </div>
+        <svg
+          class="section-wave"
+          viewBox="0 0 1440 80"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path d="M0 40C140 0 220 0 360 40S580 80 720 40S940 0 1080 40S1300 80 1440 40V80H0Z" />
+        </svg>
+      </section>
+
+      <div class="location-strip">
+        <div class="container">
+          <p>
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin" /></svg>UCC
+            Ayensu, next to BBF Barbering Shop
+          </p>
+          <p>
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock" /></svg
+            >Mon–Sat · 9:00 a.m.–7:00 p.m.
+          </p>
+        </div>
+      </div>
+      <section id="how-to-order" class="section container" aria-labelledby="order-heading">
+        <div class="section-heading order-heading">
+          <p class="eyebrow">How to order</p>
+          <h2 id="order-heading">
+            Your fresh start.<br />
+            <span>Four simple steps.</span>
+          </h2>
+          <p>No complicated forms. Just a conversation.</p>
+        </div>
+        <ol class="order-steps">
+          <li>
+            <span class="step-number" aria-hidden="true">1</span>
+            <h3>Choose your care</h3>
+            <p>Pick the service or package that suits your laundry.</p>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">2</span>
+            <h3>Call or WhatsApp</h3>
+            <p>
+              Tell us what needs cleaning. You can reach us on
+              <a href="tel:0246150683">0246150683</a>.
+            </p>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">3</span>
+            <h3>Confirm the details</h3>
+            <p>We’ll confirm your laundry details, final price, and completion time.</p>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">4</span>
+            <h3>Arrange your handover</h3>
+            <p>Drop off your items or request pickup and delivery.</p>
+          </li>
+        </ol>
+        <div class="order-cta">
+          <a class="button" href="https://wa.me/message/JEGEROEOTPZ5K1"
+            ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+            >Order on WhatsApp</a
+          ><span
+            >Prefer a conversation?
+            <a href="tel:0246150683">Call Now <span aria-hidden="true">↗</span></a></span
+          >
+        </div>
+      </section>
+
+      <section id="services" class="section" aria-labelledby="services-heading">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">Our services</p>
+            <h2 id="services-heading">
+              Fresh care for<br />
+              <span>your everyday.</span>
+            </h2>
+            <p>From your everyday favourites to the fabrics that make home feel like home.</p>
+          </div>
+          <div class="services-grid">
+            <a href="#everyday-package" class="service-card"
+              ><div class="service-image">
+                <img
+                  sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 29vw, 400px"
+                  srcset="assets/clothing-fresh-480.webp 480w, assets/clothing-fresh-900.webp 900w"
+                  src="assets/clothing-fresh-900.webp"
+                  width="900"
+                  height="900"
+                  alt="A freshly folded white shirt, pale-blue linen and light-grey knitwear"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="service-copy">
+                <h3>Everyday laundry</h3>
+                <p>Washing, ironing and folding.</p>
+                <span class="text-link"
+                  >Explore the package
+                  <svg class="icon" aria-hidden="true" focusable="false">
+                    <use href="#i-arrow" /></svg
+                ></span></div
+            ></a>
+            <a href="#bedding-package" class="service-card"
+              ><div class="service-image">
+                <img
+                  sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 29vw, 400px"
+                  srcset="assets/bedding-fresh-480.webp 480w, assets/bedding-fresh-900.webp 900w"
+                  src="assets/bedding-fresh-900.webp"
+                  width="900"
+                  height="900"
+                  alt="Clean white pillows and duvet stacked on a pale-blue quilt"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="service-copy">
+                <h3>Home &amp; fabric care</h3>
+                <p>
+                  Cleaning for quilts, bedding, drapery, window coverings, and delicate fabrics.
+                </p>
+                <span class="text-link"
+                  >See bedding pricing
+                  <svg class="icon" aria-hidden="true" focusable="false">
+                    <use href="#i-arrow" /></svg
+                ></span></div
+            ></a>
+            <a href="#sneaker-package" class="service-card"
+              ><div class="service-image">
+                <img
+                  sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 29vw, 400px"
+                  srcset="assets/sneakers-fresh-480.webp 480w, assets/sneakers-fresh-900.webp 900w"
+                  src="assets/sneakers-fresh-900.webp"
+                  width="900"
+                  height="900"
+                  alt="Freshly cleaned white sneakers on a light aqua background"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="service-copy">
+                <h3>Sneaker care</h3>
+                <p>A fresh start for your favourite pair.</p>
+                <span class="text-link"
+                  >Explore sneaker care
+                  <svg class="icon" aria-hidden="true" focusable="false">
+                    <use href="#i-arrow" /></svg
+                ></span></div
+            ></a>
+          </div>
+          <div class="service-extras">
+            <a href="#pickup"
+              ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-truck" /></svg>
+              <div>
+                <h3>Laundry pickup</h3>
+                <p>Arrange a collection with us.</p>
+              </div>
+              <span aria-hidden="true">↗</span></a
+            >
+            <a href="#pickup"
+              ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin" /></svg>
+              <div>
+                <h3>Delivery</h3>
+                <p>Ask about delivery to your location.</p>
+              </div>
+              <span aria-hidden="true">↗</span></a
+            >
+            <a href="#express"
+              ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bolt" /></svg>
+              <div>
+                <h3>Express service</h3>
+                <p>For when you need it sooner.</p>
+              </div>
+              <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="section pricing-section" aria-labelledby="packages-heading">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Packages &amp; pricing</p>
+            <h2 id="packages-heading">
+              Fresh laundry.<br />
+              <span>Clear pricing.</span>
+            </h2>
+            <p>
+              Choose a package. We’ll confirm your laundry details and final price before you go
+              ahead.
+            </p>
+          </div>
+          <div class="pricing-grid">
+            <article id="everyday-package" class="price-card featured">
+              <p class="package-type">Your everyday essentials</p>
+              <h3>Everyday Fresh <small>(Regular)</small></h3>
+              <div class="price"><span class="currency">GH₵</span>100</div>
+              <p class="price-unit">Minimum charge</p>
+              <p class="package-description">Fresh, neatly finished clothes, ready for your day.</p>
+              <ul class="check-list">
+                <li>Washing &amp; drying</li>
+                <li>Ironing &amp; folding</li>
+                <li>Final price confirmed with you</li>
+              </ul>
+              <a
+                class="button"
+                href="https://wa.me/message/JEGEROEOTPZ5K1"
+                aria-label="Order on WhatsApp — Everyday Fresh (Regular)"
+                ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+                >Order on WhatsApp</a
+              >
+              <p class="price-note">
+                GH₵100 is the minimum charge, not a fixed price for a set quantity.
+              </p>
+            </article>
+            <article id="sneaker-package" class="price-card">
+              <p class="package-type">Step out fresh</p>
+              <h3>Sneaker Care</h3>
+              <div class="price"><span class="currency">GH₵</span>70</div>
+              <p class="price-unit">Per pair</p>
+              <p class="package-description">Give your everyday pair the attention it deserves.</p>
+              <ul class="check-list">
+                <li>Sneaker cleaning</li>
+                <li>Care for your pair</li>
+                <li>Completion time confirmed with you</li>
+              </ul>
+              <a
+                class="button button-outline"
+                href="https://wa.me/message/JEGEROEOTPZ5K1"
+                aria-label="Order on WhatsApp — Sneaker Care"
+                ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+                >Order on WhatsApp</a
+              >
+            </article>
+            <article id="bedding-package" class="price-card">
+              <p class="package-type">Bring freshness home</p>
+              <h3>Bedding Cleaning</h3>
+              <div class="price">
+                <span class="from">From</span><span class="currency">GH₵</span>100
+              </div>
+              <p class="price-unit">Per set</p>
+              <p class="package-description">
+                Fresh, clean bedding to make coming home even better.
+              </p>
+              <ul class="check-list">
+                <li>General bedding cleaning</li>
+                <li>Quilts, duvets &amp; comforters</li>
+                <li>Final price confirmed with you</li>
+              </ul>
+              <a
+                class="button button-outline"
+                href="https://wa.me/message/JEGEROEOTPZ5K1"
+                aria-label="Order on WhatsApp — Bedding Cleaning"
+                ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+                >Order on WhatsApp</a
+              >
+            </article>
+          </div>
+          <div id="express" class="express-row">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bolt" /></svg>
+            <div>
+              <h3>Need it sooner?</h3>
+              <p>
+                Express service is available. Contact us to confirm the price and completion time.
+              </p>
+            </div>
+            <a class="text-link" href="https://wa.me/message/JEGEROEOTPZ5K1"
+              >Ask about express
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow" /></svg
+            ></a>
+          </div>
+          <p class="custom-care">
+            Drapery, window covers or special fabrics?
+            <a href="https://wa.me/message/JEGEROEOTPZ5K1"
+              >Contact us to discuss care and pricing.</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="pickup" class="section pickup-section" aria-labelledby="pickup-heading">
+        <div class="container pickup-layout">
+          <div class="pickup-image">
+            <img
+              sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) 45vw, 578px"
+              srcset="assets/pickup-fresh-480.webp 480w, assets/pickup-fresh-900.webp 900w"
+              src="assets/pickup-fresh-900.webp"
+              width="900"
+              height="1125"
+              alt="A pale-blue laundry tote filled with fresh towels in a bright entryway"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="pickup-copy">
+            <p class="eyebrow">Pickup &amp; delivery</p>
+            <h2 id="pickup-heading">
+              One less thing<br />
+              on your <span>to-do list.</span>
+            </h2>
+            <p>
+              Tell us your location when you order. We’ll confirm availability, fees, and a suitable
+              time with you.
+            </p>
+            <a class="button" href="https://wa.me/message/JEGEROEOTPZ5K1"
+              ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+              >Arrange on WhatsApp</a
+            >
+            <div class="dropoff">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin" /></svg>
+              <div>
+                <h3>Prefer to drop off?</h3>
+                <p>Find us at UCC Ayensu, next to BBF Barbering Shop.</p>
+                <a class="text-link" href="#contact"
+                  >View opening hours
+                  <svg class="icon" aria-hidden="true" focusable="false">
+                    <use href="#i-arrow" /></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container faq-layout" aria-labelledby="faq-heading">
+        <div>
+          <p class="eyebrow">Good to know</p>
+          <h2 id="faq-heading">
+            Your questions,<br />
+            <span>answered.</span>
+          </h2>
+          <p>
+            Have something else in mind?<br /><a
+              class="text-link"
+              href="https://wa.me/message/JEGEROEOTPZ5K1"
+              >Let’s talk on WhatsApp
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow" /></svg
+            ></a>
+          </p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>
+              What does the GH₵100 regular price cover?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Everyday Fresh includes washing, drying, ironing, and folding. GH₵100 is the minimum
+              charge, not a fixed price for a specified quantity. Tell us about your laundry so we
+              can confirm your final price.
+            </p>
+          </details>
+          <details>
+            <summary>How soon will my laundry be ready?<span aria-hidden="true">+</span></summary>
+            <p>
+              We’ll confirm the completion time when we discuss your order. Need it sooner? Express
+              service is available; contact us for pricing and timing.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Can you collect and deliver my laundry?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Yes, we offer pickup and delivery. Share your location when you call or message us on
+              WhatsApp. We’ll confirm coverage, fees, and scheduling before you go ahead.
+            </p>
+          </details>
+          <details>
+            <summary>How do I pay?<span aria-hidden="true">+</span></summary>
+            <p>
+              We accept cash and Mobile Money. Confirm when to pay and the Mobile Money payment
+              details directly with Dr Wash Laundry when arranging your order.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Do you clean curtains and special fabrics?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Yes. We clean curtains, drapery, and window coverings, and offer special care for
+              delicate fabrics. Contact us to discuss your items and confirm pricing.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+        <div class="container">
+          <div class="contact-intro">
+            <p class="eyebrow">Contact &amp; opening hours</p>
+            <h2 id="contact-heading">
+              Make room for<br />
+              <span>a fresher day.</span>
+            </h2>
+            <p>We’ll take care of the laundry. You get on with your day.</p>
+            <div class="button-row">
+              <a class="button" href="https://wa.me/message/JEGEROEOTPZ5K1"
+                ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg
+                >Order on WhatsApp</a
+              ><a class="button button-outline" href="tel:0246150683"
+                ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg
+                >Call Now</a
+              >
+            </div>
+          </div>
+          <div class="contact-grid">
+            <div>
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin" /></svg>
+              <div>
+                <h3>Visit us</h3>
+                <address>UCC Ayensu,<br />next to BBF Barbering Shop</address>
+              </div>
+            </div>
+            <div>
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock" /></svg>
+              <div>
+                <h3>Opening hours</h3>
+                <p>Monday–Saturday<br />9:00 a.m.–7:00 p.m.</p>
+              </div>
+            </div>
+            <div>
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>
+              <div>
+                <h3>Get in touch</h3>
+                <a class="contact-number" href="tel:0246150683">0246150683</a>
+                <p>Cash and Mobile Money accepted</p>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <a class="wordmark" href="#welcome"
+              ><span>Dr Wash<span class="brand-dot">.</span></span
+              ><small>LAUNDRY</small></a
+            >
+            <p>Clean, fresh. Handled with care.</p>
+            <a href="#welcome" class="back-top">Back to top <span aria-hidden="true">↑</span></a>
+          </footer>
+          <nav class="policy-links" aria-label="Policies">
+            <a href="terms.html">Terms of service</a><a href="privacy.html">Privacy policy</a
+            ><a href="refunds.html">Refund policy</a>
+          </nav>
+        </div>
+      </section>
+    </main>
+    <nav class="mobile-contact" aria-label="Quick contact">
+      <a class="button button-outline" href="tel:0246150683"
+        ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone" /></svg>Call
+        Now</a
+      ><a class="button" href="https://wa.me/message/JEGEROEOTPZ5K1"
+        ><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat" /></svg>Order on
+        WhatsApp</a
+      >
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "dr-wash-laundry",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "images": "node scripts/optimize-images.cjs",
+    "build": "node scripts/build.cjs",
+    "preview": "node scripts/serve.cjs",
+    "audit:mobile": "lighthouse http://127.0.0.1:3000 --chrome-flags=--headless --output=html --output=json --output-path=reports/mobile",
+    "audit:desktop": "lighthouse http://127.0.0.1:3000 --chrome-flags=--headless --preset=desktop --output=html --output=json --output-path=reports/desktop"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "lighthouse": "13.5.0",
+    "sharp": "0.35.5"
+  }
+}
