@@ -6,7 +6,7 @@ Responsive static website for Dr Wash Laundry in UCC Ayensu. The latest user-sel
 
 Use Node 22.20.0 or later. Run npm ci, npm run build, then npm run preview. Open http://localhost:3000. The preview serves only dist/ with compression and caching. Stop it with Control-C.
 
-Edit index.html, the policy HTML files, styles.css, editorial.css, policies.css and script.js. Rebuild after changes. Optimized WebP assets are included; npm run images regenerates them from design/fresh-images/ and assets/hero-aqua-v3.png.
+Edit index.html, the policy HTML files, styles.css, editorial.css, policies.css and script.js. Rebuild after changes. Optimized WebP assets are included. Optional npm run images requires original generated images kept in the local design/fresh-images/ directory and assets/hero-aqua-v3.png; those large originals are not in the repository.
 
 ## Cloudflare Pages
 
@@ -18,7 +18,9 @@ Edit index.html, the policy HTML files, styles.css, editorial.css, policies.css 
 
 The build creates canonical links, absolute social image URLs, local-business data and a sitemap when SITE_URL is set. Only public assets are copied into dist/. Development references and reports are excluded. _headers defines static response headers.
 
-GitHub push and deployment await an accessible repository. No public deployment URL has been assigned yet.
+Repository: https://github.com/brotherdavid652-a11y/Drwash
+
+Cloudflare Pages project: dr-wash (https://dr-wash.pages.dev). The initial deployment uses Direct Upload because Cloudflare reported a Git installation error. GitHub pushes do not automatically deploy. Rebuild with SITE_URL=https://dr-wash.pages.dev and use wrangler pages deploy dist --project-name dr-wash --branch main after Cloudflare authentication.
 
 ## Business content
 

@@ -28,7 +28,7 @@ Full local reports are in reports/before-mobile.report.html, reports/after-mobil
 
 ## Remaining launch requirements
 
-- An accessible GitHub repository is required to commit/push and connect Pages.
-- Set SITE_URL to the assigned production origin and verify the live deployment.
+- Source pushed to https://github.com/brotherdavid652-a11y/Drwash.
+- Production build uses SITE_URL=https://dr-wash.pages.dev. Pages uses Direct Upload because the Cloudflare Git installation failed.
 - Confirm policy business details before presenting drafts as final policies.
 - Manual real-device checks of 200% zoom, phone/WhatsApp app handoff, scrolling, FAQ and reduced motion remain advisable. No phone call or message was sent.
