@@ -144,7 +144,7 @@ p {
   flex-shrink: 0;
 }
 .wordmark > span {
-  font-size: 31px;
+  font-size: 35px;
   letter-spacing: -1.3px;
   font-weight: 600;
 }
@@ -152,7 +152,7 @@ p {
   color: var(--gold);
 }
 .wordmark small {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 5px;
   margin-top: 8px;
   color: var(--gold);
@@ -816,10 +816,10 @@ footer p {
   font-size: 13px;
 }
 footer .wordmark > span {
-  font-size: 26px;
+  font-size: 29px;
 }
 footer .wordmark small {
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 4px;
 }
 .back-top {
@@ -1134,10 +1134,10 @@ footer .wordmark small {
     gap: 12px;
   }
   .wordmark > span {
-    font-size: 26px;
+    font-size: 29px;
   }
   .wordmark small {
-    font-size: 8px;
+    font-size: 9px;
     letter-spacing: 4px;
     margin-top: 7px;
   }
