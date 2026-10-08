@@ -55,6 +55,13 @@ p {
 .wordmark > span {
   font-weight: 800;
 }
+.wordmark .washer-logo {
+  display: inline-block;
+  width: auto;
+  height: 0.72em;
+  margin-inline-start: 0.18em;
+  vertical-align: baseline;
+}
 .wordmark small {
   color: #00738b;
   font-weight: 600;
