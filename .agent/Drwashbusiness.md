@@ -8,8 +8,8 @@ Create a simple, professional website that introduces **Dr Wash Laundry**, prese
 - **Headline:** “Clean, Fresh and Care”
 - **Location:** UCC Ayensu, next to BBF Barbering Shop
 - **Opening hours:** Monday–Saturday, 9:00 a.m.–7:00 p.m.
-- **Phone:** 0246150683
-- **WhatsApp:** [Chat with Dr Wash Laundry](https://wa.me/message/JEGEROEOTPZ5K1)
+- **Phone:** 0594032477
+- **WhatsApp:** [Chat with Dr Wash Laundry](https://wa.me/message/KY7RFNON577AA1)
 - **Payments:** Cash and Mobile Money
 
 ## 2. Services
@@ -64,13 +64,13 @@ The proposed first version will be a single-page website containing:
 ## 6. Ordering Process
 
 1. The customer selects a service or package.
-2. They contact Dr Wash Laundry by calling **0246150683** or using the [dedicated WhatsApp link](https://wa.me/message/JEGEROEOTPZ5K1).
+2. They contact Dr Wash Laundry by calling **0594032477** or using the [dedicated WhatsApp link](https://wa.me/message/KY7RFNON577AA1).
 3. Dr Wash Laundry confirms the laundry details, final price, and completion time.
 4. The customer arranges drop-off or requests pickup and delivery.
 
-All **“Order on WhatsApp”** buttons will use the supplied link: <https://wa.me/message/JEGEROEOTPZ5K1>.
+All **“Order on WhatsApp”** buttons will use the supplied link: <https://wa.me/message/KY7RFNON577AA1>.
 
-All **“Call Now”** buttons will use **0246150683**.
+All **“Call Now”** buttons will use **0594032477**.
 
 ## 7. Pickup & Delivery
 

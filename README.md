@@ -24,7 +24,7 @@ Cloudflare Pages project: dr-wash (https://dr-wash.pages.dev). The initial deplo
 
 ## Business content
 
-Every WhatsApp order link uses https://wa.me/message/JEGEROEOTPZ5K1; telephone links use tel:0246150683. Everyday Fresh has a minimum charge of GH₵100. Sneaker Care is GH₵70 per pair. Bedding Cleaning starts at GH₵100 per set. Express pricing, delivery availability, fees and completion times are confirmed with the business. Payment is by cash or Mobile Money; there is no online checkout.
+Every WhatsApp order link uses https://wa.me/message/KY7RFNON577AA1; telephone links use tel:0594032477. Everyday Fresh has a minimum charge of GH₵100. Sneaker Care is GH₵70 per pair. Bedding Cleaning starts at GH₵100 per set. Express pricing, delivery availability, fees and completion times are confirmed with the business. Payment is by cash or Mobile Money; there is no online checkout.
 
 Terms, Privacy and Refund pages are visible drafts for business review, with noindex and exclusion from the sitemap. The business must confirm refund eligibility, reporting deadlines, remedies, processing times, privacy contact and retention practices before these become final policies.
 
