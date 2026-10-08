@@ -61,6 +61,7 @@ p {
   height: 0.72em;
   margin-inline-start: 0.18em;
   vertical-align: baseline;
+  filter: saturate(3.4) hue-rotate(10deg) brightness(1.08);
 }
 .wordmark small {
   color: #00738b;
