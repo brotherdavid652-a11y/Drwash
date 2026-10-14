@@ -14,13 +14,13 @@ Edit index.html, the policy HTML files, styles.css, editorial.css, policies.css 
 - Build command: npm run build
 - Output directory: dist
 - Node version: 22.20.0
-- SITE_URL: the actual HTTPS production origin, such as the assigned Pages domain.
+- SITE_URL: defaults to https://drwashlaundry.com; set this variable to override the production origin.
 
 The build creates canonical links, absolute social image URLs, local-business data and a sitemap when SITE_URL is set. Only public assets are copied into dist/. Development references and reports are excluded. _headers defines static response headers.
 
 Repository: https://github.com/brotherdavid652-a11y/Drwash
 
-Cloudflare Pages project: dr-wash (https://dr-wash.pages.dev). The initial deployment uses Direct Upload because Cloudflare reported a Git installation error. GitHub pushes do not automatically deploy. Rebuild with SITE_URL=https://dr-wash.pages.dev and use wrangler pages deploy dist --project-name dr-wash --branch main after Cloudflare authentication.
+Production domain: https://drwashlaundry.com. Cloudflare Pages project: dr-wash (https://dr-wash.pages.dev). The initial deployment uses Direct Upload because Cloudflare reported a Git installation error. GitHub pushes do not automatically deploy. Rebuild with npm run build and use wrangler pages deploy dist --project-name dr-wash --branch main after Cloudflare authentication.
 
 ## Business content
 

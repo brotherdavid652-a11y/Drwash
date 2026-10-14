@@ -8,8 +8,9 @@ const pages = ['index.html', 'terms.html', 'privacy.html', 'refunds.html'];
 
 (async () => {
   let origin = '';
-  if (process.env.SITE_URL) {
-    const url = new URL(process.env.SITE_URL);
+  const siteUrl = process.env.SITE_URL || 'https://drwashlaundry.com';
+  if (siteUrl) {
+    const url = new URL(siteUrl);
     if (url.protocol !== 'https:' || url.pathname !== '/' || url.search || url.hash || url.username || url.password) throw new Error('SITE_URL must be the HTTPS origin of the public website, with no path, query or credentials.');
     origin = url.origin;
   }
